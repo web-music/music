@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+.guard {
+	padding:10px;
+    line-height:60px; 
+	height:60px;
+    align-items:center;
+    background-color:#242424;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center
+	}
+	
+	#body{
+	
+	background-color:#EEEEEE;
+	}
+	
+	.one1{
+	text-decoration: none;
+    padding:                    15px;
+    color:                      white;
+    cursor:                     pointer;//光标形状
+    
+	}
+	
+	
+	.sousuo{
+    margin-left:0px;
+    line-height: 60px;
+    font-size: 30px;
+    cursor:pointer;
+    width:30px;
+    padding: 2px;
+  	
+	}
+	
+	.user{
+	text-decoration: none;
+    
+    color:#EEEEEE;
+	}
+	
+	.songtype{
+	text-decoration: none;
+	padding:10px;
+	margin:15px;
+	font-size:18px;
+	margin: 0 auto; 
+	text-align:center;
+	font-weight:blod;
+	}
+	
+	.input{
+	width: 260px;
+
+        border: 1px solid #e2e2e2;
+
+        height: 30px;
+
+        
+		border-radius:20px 20px 20px 20px;
+      
+
+        background-repeat: no-repeat;
+
+        background-size: 25px;
+
+        background-position:5px center;
+
+       	padding:0 0 0 20px;
+	}
+	
+	#search{
+		width: 100px;
+		height:28px;
+		padding:0 0 0 0px;
+		border: 1px solid #5BC5B0;
+		border-radius:20px 20px 20px 20px;
+		background: transparent;
+		color: white;
+	}
+
+#search2{
+		width: 100px;
+		height:28px;
+		padding:0 0 0 0px;
+		border: 1px solid gray;
+		border-radius:20px 20px 20px 20px;
+		background: transparent;
+		color: black;
+		margin:5px;
+	}
+section {
+  width: 920px;
+  height: 350px;
+  margin: auto;
+  position: relative;
+  top: 3%;
+  text-align: center;
+  
+}
+section #neidi, #gangtai, #oumei {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  
+  padding: 10px;
+
+	margin:15px;
+	font-size:18px;
+	margin: 0 auto; 
+	text-align:center;
+	font-weight:blod;
+}
+
+section #neidi:visited, #gangtai:visited, #oumei:visited{
+  color: black;
+}
+section #neidi:hover, #gangtai:hover, #oumei:hover{
+  color: green;
+  
+}
+
+
+section #mygangtai {
+  display: none;
+  border-top: 1px solid rgba(240, 240, 240, 1);
+  width: 920px;
+  height: 350px;
+
+}
+
+section #myoumei {
+  display: none;
+  border-top: 1px solid rgba(240, 240, 240, 1);
+  width: 920px;
+  height: 350px;
+
+}
+
+
+
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: cadetblue;
+    font-family: fantasy;
+}
+
+/* id选择器 */
+#hr1 {
+    background-color: cadetblue;
+    height: 2px;
+    width: 75%;
+}
+
+/* 类选择器 */
+.imgbox ,.imgbox2,.imgbox3{
+   
+    /* 避免因窗口变化影响图片效果 */
+    width: 56%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.img {
+    width: 56%;
+    height: 90%;
+    margin: 0 auto;
+    display: none;
+}

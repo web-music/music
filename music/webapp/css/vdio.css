@@ -1,0 +1,79 @@
+
+#container{
+height:800px;
+width:1100px;
+position: absolute;
+  top: 15%;
+  text-align: center;
+  left:26%;
+margin: auto;
+overflow:scroll;  /*窗口固定，不提供滚动条查看*/
+ 
+opacity:0.8;
+
+}
+
+#aud{
+	position: absolute;
+	width:400px;
+  top: 55%;
+  
+  left:0%;
+	/*display:none;*/
+}
+
+#btpre ,#next,#reco
+{
+	display:none;
+	
+}
+
+#player{
+  height: 100px;
+  width: 350px;
+  background-color: white;
+  
+}
+#player audio{
+  margin: 20px 20px 0px 20px;
+}
+#buttons{
+  width: 150px;
+  height: 20px;
+  margin-left: 80px;
+  display: inline-block;
+}
+#btpre{
+float: left;
+margin-right: 40px;
+}
+#next{
+  float: right;
+}
+#list
+{
+	width:400px;
+}
+
+#list ul{
+  text-align: center;
+  list-style-type: none;
+  position:absolute
+	
+}
+#list li{
+  width: 350px;
+  height: 35px;
+  line-height: 35px;
+  border-bottom:1px solid white ;
+  cursor: pointer;
+}
+
+.play{
+  background-color:deepskyblue;
+  color: white;
+  font-size: bold;
+    
+}
+
+
